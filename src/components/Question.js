@@ -43,12 +43,12 @@ function Question(props) {
             
             
               <button onClick={()=>{
-                if(props.index === 4) return navigate('/end')
-                props.setIndex(props.index+1)
-                console.log(answer)
                 if(answer === true){
                   {props.addScore()}
                 }
+                if(props.index === 4) return navigate('/end')
+                props.setIndex(props.index+1)
+                console.log(answer)
                 return navigate(`/questions/${props.question[props.index].questionText}`)
                 }}>Does this work?</button>
             </>
