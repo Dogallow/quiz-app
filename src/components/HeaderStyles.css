@@ -1,0 +1,10 @@
+.main-header{
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+
+    justify-content: space-between;
+    background-color: darkgreen;
+    border: 1px solid black;
+    
+}

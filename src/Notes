@@ -1,0 +1,5 @@
+Have the cards component repeated through the app component
+Pass the questions down as props
+Have the questions and answers as an object and you can have nested element for the answer that determines if the answer is true (correct) or false (incorrect)
+        These can be in the app component and passed down to the appropriate component as children.
+Pass down the inputs for selection
